@@ -27,8 +27,6 @@ class Bob{
         translate(position.x,position.y);
         rotate(angle);
         ellipseMode(CENTER);
-        stroke("black");
-        strokeWeight(4);
         fill("white");
         ellipse(0,0,this.width,this.height);
         pop();
