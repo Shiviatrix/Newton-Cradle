@@ -1,10 +1,10 @@
 class Bob{
     constructor(x,y,width,height){
         var prop={
-            restitution:1,
+            restitution:2,
             isStatic:false,
-            density:0.8,
-            friction:5
+            density:5,
+            friction:1
             
         }  
 
