@@ -41,7 +41,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background("grey");
+  background("white");
   Engine.update(engine);
 
   console.log(mouseX+","+mouseY);
